@@ -19,24 +19,24 @@ ul{
 
 .button_1{
   height:38px;
-  background:#000000;
+  background:black;
   border:0;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:#FF851B;
 }
 
 /* Header **/
 header{
-  background:#C94C4C;
-  color:#000000;
+  background:#85144B;
+  color:#FF851B;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#ffffff 3px solid;
+  border-bottom:#FF851B 3px solid;
 }
 
 header a{
-  color:#000000;
+  color:#FF851B;
   text-decoration:none;
   text-transform: uppercase;
   font-size:15px;
@@ -61,7 +61,7 @@ header nav{
 }
 
 header a:hover{
-  color:#cccccc;
+  color:#FF851B;
   font-weight:bold;
 }
 
@@ -86,10 +86,10 @@ header a:hover{
 }
 /*contact form*/
 #contactus{
-  padding:10px;
-  color:#000000;
-  background:#C94C4C;
-  border-bottom: 3px white solid;
+  padding:10px 0 10px 0;
+  color:#FF851B;
+  background:#85144B;
+  border-bottom: 3px #FF851B;
 }
 #contactus input[type=text], select, textarea {
   width: 100%;
@@ -98,12 +98,16 @@ header a:hover{
   margin-bottom: 16px;
   resize: vertical;
 }
+#contactus input[type=submit] {
+  background-color: black;
+  color:#FF851B
+}
 
 /* Newsletter */
 #newsletter{
   padding:15px;
-  color:#000000;
-  background:#C94C4C;
+  color:#FF851B;
+  background:#85144B;
 }
 
 #newsletter h1{
